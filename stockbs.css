@@ -1,0 +1,62 @@
+body{
+    background:url("http://www.bluewallpapers.net/wallpapers/1920x1200/abstract-blue-gradient.jpg") no-repeat;
+	background-size:cover;
+	background-size:100% 100%;	
+	background-attachment:fixed;
+	margin-left:auto;
+	margin-right:auto;
+}
+.fbbtn{ 
+    width:35px; height:35px;
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 0;
+    background-size: cover;
+    background-image:url(http://static.ak.facebook.com/images/share/facebook_share_icon.gif?6:26981); 
+}	
+.container{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 25px;
+}
+#hrdiv{
+    padding: 1px;
+    margin-top: 4px;   
+}  
+.table{
+    border:1px solid #DDDDDD;
+}
+.newsfeedcls{
+    background: linear-gradient(#E8E8E8, #F5F5F5);
+    border:1px grey;    
+}
+#title{
+font-family: Arial;
+}
+#gradient{
+	
+background: linear-gradient( #F5F5F5 ,#F3F3F3, #F2F2F2, #F0F0F0, #EFEFEF, #EDEDED, #ECECEC, #EAEAEA ,#E9E9E9);
+}
+.trash{color:black;}
+
+#mainTab{
+	border-color:white;
+}
+.white{
+	color:white;
+}
+.yellow{
+	color:yellow;
+}
+.car2table {
+  width: 100%;
+  table-layout: fixed;
+}
+@media screen and (max-width:680px){#cont1{overflow:auto;}}
+
+@media only screen and (min-width: 680px) {
+  .table-responsive {
+    overflow-x: hidden;
+  }
+}
